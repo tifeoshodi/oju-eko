@@ -1,0 +1,26 @@
+# Ignore the Python runtime environment and source tarball
+Python-3.10.20/
+Python-3.10.20.tar.xz
+
+# Ignore standard CARLA simulator directories and executables
+WindowsNoEditor/CarlaUE4/
+WindowsNoEditor/Co-Simulation/
+WindowsNoEditor/Engine/
+WindowsNoEditor/HDMaps/
+WindowsNoEditor/Plugins/
+WindowsNoEditor/CarlaUE4.exe
+WindowsNoEditor/CHANGELOG
+WindowsNoEditor/Dockerfile
+WindowsNoEditor/LICENSE
+WindowsNoEditor/README
+
+# Ignore standard CARLA PythonAPI subdirectories (except custom code)
+WindowsNoEditor/PythonAPI/carla/
+WindowsNoEditor/PythonAPI/examples/
+WindowsNoEditor/PythonAPI/util/
+
+# Ignore custom output/temp directories
+WindowsNoEditor/PythonAPI/oju_eko/out/
+
+# Keep track of custom oju_eko python scripts, weights, and documentation
+# (e.g. prd_oju-eko.md, progress_log_oju_eko.md, detector.py, logger.py, yolov8n.pt)
