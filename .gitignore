@@ -19,8 +19,9 @@ WindowsNoEditor/PythonAPI/carla/
 WindowsNoEditor/PythonAPI/examples/
 WindowsNoEditor/PythonAPI/util/
 
-# Ignore custom output/temp directories
+# Ignore custom output/temp directories and weights
 WindowsNoEditor/PythonAPI/oju_eko/out/
+*.pt
 
-# Keep track of custom oju_eko python scripts, weights, and documentation
-# (e.g. prd_oju-eko.md, progress_log_oju_eko.md, detector.py, logger.py, yolov8n.pt)
+# Keep track of custom oju_eko python scripts and documentation
+# (e.g. prd_oju-eko.md, progress_log_oju_eko.md, detector.py, logger.py)
